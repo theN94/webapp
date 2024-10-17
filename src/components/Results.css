@@ -1,0 +1,56 @@
+.results-container {
+  max-width: 900px;
+
+  margin: 2em auto;
+  padding: 2em;
+  background-color: #fff;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  text-align: center;
+}
+
+.results-title {
+  color: #333;
+  font-weight: 700;
+  margin-bottom: 1.5rem;
+}
+
+.results-info p {
+  font-size: 1.1rem;
+  color: #555;
+  margin: 10px 0;
+}
+
+.download-link {
+  display: inline-block;
+  margin: 1.5rem 0;
+  font-size: 1.1rem;
+}
+
+.image-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 15px;
+  margin-top: 1.5rem;
+}
+
+.result-image {
+  width: 100%;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.no-data-message {
+  color: blue;
+  font-size: 1.2rem;
+  margin: 2rem 0;
+}
+
+.error-message {
+  font-size: 1.1rem;
+  background-color: #f8d7da;
+  color: #721c24;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #f5c6cb;
+}
